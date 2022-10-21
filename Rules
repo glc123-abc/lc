@@ -1,9 +1,24 @@
 hostname= user-kaji-api.b612kaji.com,buy.itunes.apple.com,buy.itunes.apple.com, partner-ai-api.quthing.com,api.xiuxiu.meitu.com,subscription-api.notedapp.io,wallpaper.soutushenqi.com,buy.itunes.apple.com,www.xmind.cn,api.xunyou.mobi,m2u-api.getkwai.com,api.meiyan.com info.json,api.revenuecat.com,
+appapi.*.com,api.*.com,jiliapi.xndplqq.cn, *,
 
 
 
+#哔哩哔哩+解锁大会员 下载地址：https://is.gd/flDAic
+
+^https?://* url script-request-header https://raw.githubusercontent.com/89996462/Quantumult-X/main/gx/bilibili.js
 
 
+#喜马拉雅+解锁VIP下载地址：https://is.gd/rgiKbd
+
+^https?://* url script-request-header https://raw.githubusercontent.com/89996462/Quantumult-X/main/gx/XMLY.js
+
+#脚本功能：探花视频+解锁VIP—9.27更新下载地址：https://tanhua.app/?c=MHKKLKOWI
+
+^https:\/\/jiliapi\.xndplqq\.cn\/api\/member\/info url script-request-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ghs/thsp.js
+
+#91视频(TF版)+解锁VIP 软件下载：https://app.glvr.xyz/i-WG4S5YY
+
+^https://(app|api).*.com/m_user/info url script-request-header https://raw.githubusercontent.com/89996462/Quantumult-X/main/ghs/91tv.js
 
 # /******************************
 # 脚本功能：Picsew滚动截图+解锁订阅
